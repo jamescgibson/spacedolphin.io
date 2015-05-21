@@ -20,12 +20,12 @@
   <body>
     <div class="container" id="main-container">
       <div class="row header-row">
-        <div class="col-xs-4 col-md-2">
-          <img src="images/spacedolphin_140w.png"> </img>
-        </div>
+        <img class="col-xs-4" src="/images/spacedolphin.svg"> </img>
 
         <div class="col-xs-8 col-md-5">
           <h1> Space Dolphin Labs </h1>
+
+          <p> We build businesses. Sofware is our medium. </p>
         </div>
       </div>
       <%= yield %>
@@ -34,22 +34,33 @@
     <footer class="footer">
       <div class="container">
         <div class="row footer-row">
-          <img class="col-xs-2 col-md-1" src="images/spacedolphin_140w.png"> </img>
+          <div class="col-xs-12 col-md-6">
+            <div class="row">
+              <div class="col-xs-4 col-md-2">
+                <img src="/images/spacedolphin_64w.png"> </img>
+              </div>
 
-          <div class="col-xs-5 col-md-5">
-            <p class="text-muted">
-              Space Dolphin Labs Inc  </br>
-              802 NW 5th Avenue #100 </br>
-              Gainesville, Florida, 32601
-            </p>
+              <div class="col-xs-8 col-md-10">
+                <p class="text-muted">
+                  Space Dolphin Labs Inc  </br>
+                  802 NW 5th Avenue #100 </br>
+                  Gainesville, Florida, 32601
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div class="col-xs-5">
-            <p class="pull-right">
-              email <a href="mailto:james@spacedolphin.io">james@spacedolphin.io</a><br/>
-              phone (352) 389-5007 <br/>
-            </p>
+          <div class="col-xs-12 col-md-6">
+            <div class="row">
+              <div class="col-xs-4 col-lg-0"></div>
+              <div class="col-xs-8 col-lg-12">
+                <p class="text-muted">
+                  email <a href="mailto:james@spacedolphin.io">james@spacedolphin.io</a><br/>
+                  phone (352) 389-5007 <br/>
+                </p>
+              </div>
           </div>
+        </div>
       </div>
     </footer>
   </body>

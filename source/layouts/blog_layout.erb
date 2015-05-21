@@ -17,13 +17,20 @@
   <body>
     <div class="container" id="main-container">
       <div class="row header-row">
-          <img class="col-xs-2 col-md-1" src="images/spacedolphin_140w.png"> </img>
+          <img class="col-xs-2 col-md-1" src="/images/spacedolphin_140w.png"> </img>
 
-          <div class="col-xs-5 col-md-5">
-            <h1> Space Dolphin Labs </h1>
+          <div class="col-xs-10 col-md-11">
+            <h4>
+              You're reading the blog of <%= link_to "Space Dolphin Labs", "/" %>, a software consultancy.
+            </h4>
           </div>
       </div>
-      <%= yield %>
+
+      <div class="row">
+        <div class="col-xs-12 article">
+          <%= yield %>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
