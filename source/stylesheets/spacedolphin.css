@@ -26,3 +26,23 @@
 body > div.container {
   margin-top: 1em;
 }
+
+.article > p {
+  font-size: 14pt;
+  min-height: 400px;
+}
+
+.author  p {
+  font-size: 14pt;
+}
+
+.article > img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar-image {
+  display: inline-block;
+}

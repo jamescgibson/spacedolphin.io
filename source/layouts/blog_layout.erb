@@ -28,7 +28,33 @@
 
       <div class="row">
         <div class="col-xs-12 article">
+          <h1>
+            <%= current_page.data.title %>
+          </h1>
+
+          <hr>
+          <h4><small>
+            <%= current_page.data.date.year %>-<%= current_page.data.date.month %>-<%= current_page.data.date.day %> by <%= current_page.data[:author] %>
+          </small></h4>
+
           <%= yield %>
+        </div>
+
+        <div class="col-xs-12 author">
+          <hr>
+
+          <div class="row">
+            <img class="col-xs-4 col-md-1 avatar-image img thumbnail"src="<%= gravatar_for(current_page.data.email) %>"> </img>
+            <div class="col-xs-8 col-md-11">
+              <p>
+                <%- if current_page.data.author == "James Gibson" %>
+                  <em> James Gibson</em> is a software developer and statistician from Gainesville, Florida, and is the lead developer at Space Dolphin.
+                <%- elsif current_page.data.author == "Kerrie Durham" %>
+                  <em> Kerrie Durham </em> is a fourth year student of linguistics at the University of Florida. She has traveled to five continents and is now embarking on her first trip into the world of Ruby.
+                <% end %>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

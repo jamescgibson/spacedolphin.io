@@ -47,6 +47,14 @@
 #   end
 # end
 
+require 'digest/md5'
+helpers do
+  def gravatar_for(email)
+    hash = Digest::MD5.hexdigest(email.chomp.downcase)
+    "http://www.gravatar.com/avatar/#{hash}"
+  end
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'

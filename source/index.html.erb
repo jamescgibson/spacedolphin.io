@@ -2,3 +2,17 @@
 title: Space Dolphin Labs Inc
 ---
 
+<div class="row">
+  <% blog.articles.select{|a| a.data[:published]}.each do |article| %>
+    <div class="col-xs-12">
+      <h4>
+        <a href="<%= article.url %>"><%= article.title %></a>
+        <small>
+          <%= article.date.year %>-<%= article.date.month %>-<%= article.date.day %> by <%= article.data[:author] %>
+        </small>
+      </h4>
+
+      <p> <%= article.summary %> </p>
+    </div>
+  <% end %>
+</div>
