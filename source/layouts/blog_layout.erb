@@ -10,12 +10,12 @@
     <title><%= current_page.data.title || "Space Dolphin Labs Inc" %></title>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/spacelab/bootstrap.min.css">
-    <%= stylesheet_link_tag 'spacedolphin' %>
+    <%= stylesheet_link_tag 'all' %>
     <%= javascript_include_tag  "all" %>
   </head>
 
   <body>
-    <div class="container main-container">J
+    <div class="container main-container">
       <div class="row header-row">
           <img class="col-xs-2 col-md-1" src="/images/spacedolphin_140w.png"> </img>
 
@@ -48,9 +48,9 @@
             <div class="col-xs-8 col-md-11">
               <p>
                 <%- if current_page.data.author == "James Gibson" %>
-                  <em> James Gibson</em> is a software developer and statistician from Gainesville, Florida, and is the lead developer at Space Dolphin.
+                   James Gibson is a software developer and statistician from Gainesville, Florida, and is the lead developer at Space Dolphin.
                 <%- elsif current_page.data.author == "Kerrie Durham" %>
-                  <em> Kerrie Durham </em> is a fourth year student of linguistics at the University of Florida. She has traveled to five continents and is now embarking on her first trip into the world of Ruby.
+                   Kerrie Durham is a fourth year student of linguistics at the University of Florida. She has traveled to five continents and is now embarking on her first trip into the world of Ruby.
                 <% end %>
               </p>
             </div>

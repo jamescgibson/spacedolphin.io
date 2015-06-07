@@ -13,7 +13,8 @@
     <title><%= current_page.data.title || "Space Dolphin Labs Inc" %></title>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/spacelab/bootstrap.min.css">
-    <%= stylesheet_link_tag 'spacedolphin' %>
+    <%= yield_content :assets %>
+    <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
   </head>
 
