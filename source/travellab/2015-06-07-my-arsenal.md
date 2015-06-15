@@ -14,8 +14,8 @@ This has been my favorite laptop that I have ever used. Granted, I haven't used 
 So far this laptop has worked great for the few things that I need a laptop to do; browse reddit, code Ruby, watch Archer, and stream...videos. Thankfully my friend James Gibson was able to install chroot in order for us to play with the linux system and install Ruby.
 If anyone is interested in the chromebook, here's the [link](http://www.amazon.com/dp/B00FBBUIDM/ref=psdc_565108_t1_B00K1FY3M0) for it on Amazon
 
-![Front view](http://imgur.com/utWYQ0K)
-![Back view](http://imgur.com/GCpqHm9)
+![Front view](http://imgur.com/utWYQ0K.jpg)
+![Back view](http://imgur.com/GCpqHm9.jpg)
 
 
 ####Knowledge is Power: _Learn to Program_ second edition by Chris Pine
@@ -35,7 +35,7 @@ His chapters and the concepts he covered are as follows:
 
 As a newbie coder, some of the concepts were harder than others. I'm still trying to wrap my head around arrays and how they exactly work. But overall, I must say thanks to Chris Pine for his excellent introduction.
 
-![Thanks Pine!](http://imgur.com/Yu5aRuC)
+![Thanks Pine!](http://imgur.com/Yu5aRuC.jpg)
 
 In a few days I will be using another book/source in order to continue learning while in Peru. I definitely still have a lot of qustions that hopefully I'll figure out as I learn more about Ruby, such as what is YAML and why do developers love recursive acronyms so much?
 
