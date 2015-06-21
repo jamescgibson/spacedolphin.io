@@ -112,7 +112,7 @@ Anyways I used this loop here in order to keep the program continuing until it  
 One thing that I really enjoy about this loop is it's incredibly simple and   that you can keep piling on the `elsif`. Truly, as many as you want. As long   as the `if` gets a counter `else` and you put the correct number of `ends` all   is good in the computer world.
 
 
-The link to my full code can be found here on github! I'll also write a post   about how I got github to work for me, since it's not user friendly to those  who are new to the tech world.
+The link to my full code can be found [here on github](https://github.com/dukeran/thea)! I'll also write a post   about how I got github to work for me, since it's not user friendly to those  who are new to the tech world.
 
 
 ```ruby
