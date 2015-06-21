@@ -28,7 +28,7 @@ body > div.container {
   margin-top: 1em;
 }
 
-.article > p {
+.article > p, .ruby {
   margin-left: 10%;
   width: 80%;
   font-size: 14pt;

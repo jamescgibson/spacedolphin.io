@@ -55,6 +55,9 @@ helpers do
   end
 end
 
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
@@ -67,6 +70,8 @@ activate :blog do |blog|
   blog.layout = "blog_layout"
   blog.summary_separator = /END_SUMMARY/
 end
+
+activate :syntax, line_numbers: true
 
 # Build-specific configuration
 configure :build do
